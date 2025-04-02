@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
+* {
+  /* background-color: rgb(216, 216, 216);  */
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+}
+.headdd {
+  display: flex;
+  background-color: rgb(248, 248, 248);
+  justify-content: center;
+  text-align: center;
+  font-size: 1rem;
+  font: bold;
+  width: 100%;
+}
+.hd_name {
+  font-size: 2rem;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 700;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  width: 968px;
+}
+
+/* 회원가입 박스  */
+.jb1 {
+  border: 1px solid rgb(225, 225, 225);
+  background-color: white;
+  border-radius: 3px;
+
+  padding: 15px;
+  text-decoration: none;
+}
+
+/* 전체창 색 */
+.yesWrap {
+  background-color: rgb(248, 248, 248);
+}
+
+.ysContent {
+  background-color: white;
+  border: 1px solid rgb(206, 206, 206);
+  width: 968px;
+  margin: auto auto 50px auto;
+  padding: 50px 100px 200px 100px;
+  display: flex; /* 로그인 창과 광고를 나란히 배치 */
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.no_member_login_cont    
+/* 비회원 주문확인 창 최초 안보임 */ {
+  display: none;
+}
+
+.loginCont {
+  width: 360px;
+  /* margin-right: 20px; */
+}
+
+.login_adArea {
+  display: flex;
+  width: 3s60px;
+  /* height: auto; */
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.loginBigBanner img {
+  display: block;
+  width: 360px;
+  height: auto;
+  /* max-width: 360px; */
+}
+
+.memberbox {
+  display: flex;
+  list-style-type: none;
+  width: 100%;
+  padding: 0 0 10px 0;
+  margin: 0;
+}
+
+.real_member,
+.not_member {
+  display: flex;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  flex: 1;
+  cursor: pointer;
+  margin: 0;
+  justify-content: center;
+  border: 0;
+}
+
+.rm_butt {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  border: 1px solid rgb(94, 174, 255);
+  border-right: 1px solid rgb(94, 174, 255);
+  border-bottom: 0;
+  background-color: white;
+}
+.no_butt {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  border: 1px solid rgb(184, 184, 184);
+  border-bottom: 1px solid rgb(94, 174, 255);
+  border-left: 0;
+}
+
+#username,
+#ps {
+  /* border-color: rgb(216, 216, 216); 이걸 되살려야됨... */
+  width: 100%;
+  height: 50px;
+  margin-bottom: 10px;
+  padding: 9px;
+  box-sizing: border-box;
+}
+
+input {
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+input:focus {
+  color: rgb(0, 128, 255);
+  border: 1px solid rgb(0, 128, 255);
+}
+
+.login_bt {
+  /**/
+  margin-top: 20px;
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  background-color: rgb(0, 128, 255);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.nonmem_bt {
+  /**/
+  display: none;
+  margin-top: 20px;
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  background-color: rgb(0, 128, 255);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+/* .erid,
+.erpw {
+  display: none;
+  color: red;
+} */
+
+.logiinEtc {
+  display: flex;
+  padding: 10px;
+  font-size: 14px;
+  cursor: auto;
+}
+
+.loginSocialli     /*소셜 로그인부분*/ {
+  padding: 30px 0 0 0;
+  list-style-type: none;
+}
+
+.ko {
+  border: 1px solid rgb(221, 221, 221);
+  margin-bottom: 15px;
+}
+.ko a span {
+  display: flex;
+  align-items: center;
+}
+.txt {
+  display: flex;
+  /* text-align: center;  안먹힘힘*/
+  font-size: 17px;
+  margin: 0 50px; /* 억지로 가운데 정렬 */
+}
+
+.login_adAre {
+  /**/
+  display: flex;
+  justify-content: center;
+  height: 38px;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  font-size: 10px;
+}
+
+.taging {
+  display: inline;
+  justify-content: left;
+}
+
+.sim {
+  display: flex;
+  width: 38px;
+  height: 38px;
+  border-right: 1px solid rgb(211, 211, 211);
+}
+.nar,
+.kar,
+.far,
+.kor {
+  display: flex;
+  width: 37px;
+  border-right: 1px solid rgb(238, 237, 237);
+}
+
+.adSmall {
+  /*작은광고*/
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.footer {
+  text-align: center;
+  width: 100%;
+}
+
+.last_foot {
+  line-height: 50px;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 10px;
+  text-align: center;
+  width: 100%;
+}
+.footyes {
+  font-weight: 700;
+}
+
+.auto_lgug {
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  display: none;
+  font-size: 14px;
+  border: 1px solid black;
+  /* margin: 100px; */
+  z-index: 100;
+  width: 340px;
+}
+.ugh {
+  background-color: rgb(232, 232, 232);
+  font-size: 13px;
+  font-weight: 700;
+  width: 100%;
+  height: 34px;
+  padding: 15px;
+}
+
+.ugonebox {
+  border: 1px solid blackd;
+}
+.ugbutton {
+  border: 0;
+  font-size: 15px;
+  color: rgb(122, 122, 122);
+  cursor: pointer;
+  background-color: inherit;
+  display: flex;
+  float: right;
+}
+
+.ugl {
+  list-style: inside;
+  margin-bottom: 5px;
+  font-size: 10px;
+  padding: 1px;
+}
+.ugred {
+  list-style: inside;
+  margin-bottom: 5px;
+  font-size: 10px;
+  padding: 1px;
+  color: red;
+}
