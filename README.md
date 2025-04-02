@@ -6,30 +6,40 @@ html, css, javascript를 사용하여 구현하였으며, 프론트엔드 개발
 
 ## 🔹 프로젝트 개요
 - **프로젝트명**: yes24 로그인창 
-- **개발 기간**: YYYY.MM.DD ~ YYYY.MM.DD  
-- **주요 기술**: Vue.js, HTML, CSS, JavaScript
+- **개발 기간**: 2025.03.20 ~ 2025.03.25  
+- **주요 기술**: HTML, CSS, JavaScript
 
 ## 🔹 주요 기능
-- 반응형 웹 디자인 적용
-- 절주 관련 정보 제공 페이지 구현
-- 사용자 친화적인 UI 구성 및 스타일링
-- Vue Router를 활용한 페이지 이동
-- Axios를 이용한 API 데이터 연동 (필요 시)
+1. 기존의 UI 구성 및 스타일링 클론코딩
+2. javascript 기반 기능 구현
+- 로그인 및 비회원 주문확인 창 전환
+- 로그인 상태 유지 체크박스 기능
+- 버튼 클릭 시 스타일 변경
+- 로그인 입력 유효성 검사 (경고 메시지 출력)
+- 비회원 주문확인 입력 유효성 검사 (경고 메시지 출력)
+
 
 ## 🔹 프로젝트 이미지  
-프로젝트의 화면은 아래와 같습니다.
 ![메인 페이지](readme-images/yes24_login_clone.png)  
+**figure. 1.** 메인 페이지 UI
 
 ### 🔹 화면 구성 기획
 ![화면 구성 01](readme-images/bond-01.png) 
+**figure. 2.** 본 화면의 header-main-footer
+
+
 ![화면 구성 02](readme-images/bond-02.png) 
-![화면 구성 03](readme-images/bond-03.png) 
+**figure. 3.** main의 세부 구성 (1)
+
+![화면 구성 03](readme-images/bond-03.png)
+
+**figure. 4.** main의 세부 구성 (2)
 
 ---
 ## 🔹 개선 가능성 및 회고
-- 보다 효율적인 상태 관리를 위한 Vuex/Pinia 도입 고려
-- UI/UX 개선을 위한 추가적인 디자인 조정 필요
 - 코드 구조 최적화 및 성능 개선 시도
+- 이미지 최적화
+- vue.js로 전환
 
 ## 🔹 Contact
 - GitHub: [GitHub](https://github.com/ShonJuSeong)
