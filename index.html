@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>son_yes24_loginpage</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/yes24_3.css" />
+    <script src="/js/yes24.js" defer></script>
+  </head>
+  <body>
+    <div class="headdd">
+      <!-- h1 상단바 -->
+      <h1>
+        <a class="hd_logo" href="#">
+          <img src="./img/logo_n.png" alt="Yes24" />
+        </a>
+        <span class="hd_name">로그인</span>
+        <div class="join_button">
+          <a class="jb1" href="#">
+            <strong>회원가입</strong>
+          </a>
+        </div>
+      </h1>
+    </div>
+    <!-- ↑ h1 상단바 // ↓ 중단부  -->
+    <div class="yesWrap">
+      <!-- yesWrap 전체창 -->
+      <div class="ysContent">
+        <!-- 전체창 내부-->
+        <div class="loginCont">
+          <!-- loginCont 로그인창 + 소셜 로그인 // 두개의 창 필요 -->
+          <div class="divTabMemberArea">
+            <!-- divTabMemberArea 멤버/비회원 여부 -->
+            <ul class="memberbox">
+              <li class="real_member">
+                <button class="rm_butt"><span class="rmb">회원</span></button>
+              </li>
+              <li class="not_member">
+                <button class="no_butt">
+                  <span class="nob">비회원 주문확인</span>
+                </button>
+              </li>
+            </ul>
+
+            <!-- divTabMemberArea 멤버/비회원 여부 -->
+
+            <fieldset class="loginfield">
+              <!-- loginfield 인풋~버튼 div x-->
+              <legend class="login_in"></legend>
+              <form class="deflog">
+                <span
+                  ><input
+                    class="idin"
+                    type="text"
+                    id="username"
+                    placeholder="아이디"
+                /></span>
+                <div class="erid"></div>
+                <span
+                  ><input
+                    class="pwin"
+                    type="password"
+                    id="ps"
+                    placeholder="비밀번호"
+                /></span>
+                <div class="pwer"></div>
+                <div class="id_find">
+                  <!-- id_find -->
+                  <div class="loginForm_chk">
+                    <!-- loginForm_chk 로그인 상태유지/저장 체크박스 -->
+                    <span>
+                      <input type="checkbox" class="ugcheck" />
+                      <label for="login_keep">로그인 상태 유지</label>
+                    </span>
+                    <span>
+                      <input type="checkbox" class="id_save1" />
+                      <label for="id_save2">아이디 저장</label>
+                    </span>
+                  </div>
+                  <!-- loginForm_chk 로그인 상태유지/저장 체크박스 -->
+                  <!-- 평소엔 안보였다가, 로그인 상태유지 체크박스 누르면 나오는거 -->
+                  <div class="auto_lgug">
+                    <div class="ugonebox">
+                      <h1 class="ugh">
+                        로그인 상태 유지
+                        <div><button class="ugbutton">X</button></div>
+                      </h1>
+                    </div>
+                    <ul class="uglist">
+                      <li class="ugl">
+                        로그인 상태유지 설정 시, 아이디와 비밀번호를 입력하지
+                        않고도 로그인 상태를 유지할 수 있습니다.
+                      </li>
+                      <li class="ugl">
+                        로그인 상태는 설정 해제 전 까지 유지 됩니다.
+                      </li>
+                      <li class="ugl">
+                        로그인 상태유지 해제는 '로그아웃' 후 가능합니다.
+                      </li>
+                      <li class="ugred">
+                        개인정보 보호를 위하여 자동로그인 설정은 개인 PC에서
+                        사용하고, 공용 PC에서의 사용을 자제해 주시기 바랍니다.
+                      </li>
+                      <li class="ugred">
+                        철저한 보안 및 사용환경 관리를 통해 개인정보 남용이
+                        발생하지 않도록 주의해주시기 바랍니다.
+                      </li>
+                    </ul>
+                  </div>
+                  <button type="submit" class="login_bt" href="#">
+                    로그인
+                  </button>
+                  <!-- <button type="submit" class="nonmem_bt">확인</button> -->
+                </div>
+                <!-- id_find -->
+              </form>
+              <!-- form 닫혔다 -->
+            </fieldset>
+            <!-- loginfield 인풋~버튼 div x-->
+            <div class="logiinEtc">
+              <a href="#">아이디 찾기</a>
+              <em>│</em>
+              <a href="#">비밀번호 찾기</a>
+            </div>
+            <!-- logiinEtc -->
+            <div class="soc_log">
+              <ul class="loginSocialli">
+                <!-- 로그인 소셜리스트-->
+                <li class="ko">
+                  <!-- 네이버 소셜-->
+                  <!-- <div class="nav"> -->
+                  <a href="">
+                    <span>
+                      <em class="sim">
+                        <img class="nar" src="./img/naver.png" alt="네이버" />
+                      </em>
+                      <em class="txt">네이버 아이디로 로그인</em></span
+                    >
+                  </a>
+                  <!-- </div> -->
+                </li>
+                <li class="ko">
+                  <div class="kak">
+                    <!-- 카카오톡 소셜-->
+                    <a href="">
+                      <span>
+                        <em class="sim">
+                          <img class="kar" src="./img/kakao.png" alt="카톡톡"
+                        /></em>
+                        <em class="txt">카카오 아이디로 로그인</em></span
+                      >
+                    </a>
+                  </div>
+                </li>
+                <li class="ko">
+                  <div class="faceb">
+                    <!-- 페이스북 아이디 소셜-->
+                    <a href="">
+                      <span>
+                        <em class="sim">
+                          <img class="far" src="./img/facebook.png" alt="페북"
+                        /></em>
+                        <em class="txt fat">페이스북 아이디로 로그인</em></span
+                      >
+                    </a>
+                  </div>
+                </li>
+                <li class="ko">
+                  <div class="mobgan">
+                    <!-- 모바일 간편 소셜-->
+                    <a href="#">
+                      <span>
+                        <em class="sim">
+                          <img class="kor" src="./img/mobile.png" alt="모바일"
+                        /></em>
+                        <em class="txt">모바일 간편 로그인</em></span
+                      >
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- loginCont 로그인창 + 소셜 로그인 -->
+          <div class="no_member_login_cont">
+            <fieldset class="loginfield">
+              <legend class="login_in"></legend>
+              <form class="jm_ran">
+                <span
+                  ><input
+                    class="jmid"
+                    type="text"
+                    id="username"
+                    placeholder="주문번호"
+                /></span>
+                <div class="jmer"></div>
+                <span
+                  ><input
+                    class="jmpw"
+                    type="password"
+                    id="ps"
+                    placeholder="주문 비밀번호"
+                /></span>
+                <div class="jmper"></div>
+                <div class="id_find">
+                  <div class="loginForm_chk"></div>
+                  <button type="submit" class="nonmem_bt" href="#">확인</button>
+                  <!-- <button type="sub
+                   
+                  mit" class="login_bt">로그인</button> -->
+                </div>
+              </form>
+            </fieldset>
+            <div class="logiinEtc">
+              <a href="#">주문번호 찾기</a>
+              <em>│</em>
+              <a href="#"> 주문 비밀번호 찾기</a>
+            </div>
+          </div>
+        </div>
+        <!-- ↓ 평소엔 히든, 비회원 주문확인 버튼 누르면 나타나는 js 적용 필요. -->
+        <div class="login_adArea">
+          <!-- 오른쪽 광고영역-->
+          <div class="loginBigBanner">
+            <a href="#">
+              <img src="./img/bn_1080x1080.jpg" alt="빅배너" />
+            </a>
+          </div>
+          <!-- 위 큰 광고-->
+          <div class="adSmall">
+            <a href="#"><img src="./img/login_51395.jpg" alt="고흐" /></a>
+          </div>
+          <!-- 아래 작은 광고-->
+        </div>
+      </div>
+      <!-- ysContent 전체창 내부-->
+      <div class="footer">
+        <!--footer 하단 배너-->
+        <a href="#">
+          <img src="./img/bn_login_n_960x60.gif" alt="하단광고고" />
+        </a>
+        <div class="last_foot">
+          <!-- 최하단 텍스트-->
+          <address>
+            Copyright © <strong class="footyes">YES24 Corp.</strong> All Rights
+            Reserved.
+          </address>
+        </div>
+      </div>
+    </div>
+    <!-- yesWrap 전체창 -->
+  </body>
+</html>
